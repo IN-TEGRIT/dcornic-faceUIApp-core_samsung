@@ -133,10 +133,11 @@ dist
 .history
 
 # build
-build/
-
-# public
-public/
+build
 
 # large file cache cleaner
 bfg*.jar
+
+*.mp4
+*.mov
+*.avi 
