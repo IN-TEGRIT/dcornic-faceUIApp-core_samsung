@@ -1,0 +1,41 @@
+{
+  "main_menu": {
+    "m1": {
+      "gridArea": "m1",
+      "path": "/info/stk2023_timetable"
+    },
+    "m2": {
+      "gridArea": "m2",
+      "path": "/info/stk2023_info"
+    },
+    "m3": {
+      "gridArea": "m3",
+      "path": "/settings"
+    },
+    "m4": {
+      "gridArea": "m4",
+      "disabled": false,
+      "path": "/docent"
+    },
+    "m5": {
+      "gridArea": "m5",
+      "path": "/info/intro_dcornic"
+    },
+    "m6": {
+      "gridArea": "m6",
+      "WidgetComponent": "WeatherWidgetComp"
+    },
+    "m7": {
+      "gridArea": "m7",
+      "action": "baseStation"
+    },
+    "mSuggestion": {
+      "gridArea": "mSuggestion",
+      "path": "/info/event/stk2023_thewave"
+    },
+    "mEvent": {
+      "gridArea": "mEvent",
+      "path": "/info/event/stk2023_techcon"
+    }
+  }
+}

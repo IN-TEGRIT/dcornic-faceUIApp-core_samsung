@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "type": "main",
+    "latin_key": "sdl",
+    "label": "SMART DAILY LIFE",
+    "pos": {
+      "x": 1100,
+      "y": 1600
+    },
+    "cmd": "CD_MOVE_CZONE"
+  },
+  {
+    "id": 2,
+    "type": "sub",
+    "pos": {
+      "x": 994,
+      "y": 1600
+    }
+  },
+  {
+    "id": 3,
+    "type": "sub",
+    "pos": {
+      "x": 994,
+      "y": 1392
+    }
+  },
+  {
+    "id": 4,
+    "type": "sub",
+    "pos": {
+      "x": 1066,
+      "y": 1392
+    }
+  },
+  {
+    "id": 5,
+    "type": "sub",
+    "pos": {
+      "x": 1066,
+      "y": 1218
+    }
+  },
+  {
+    "id": 6,
+    "type": "sub",
+    "pos": {
+      "x": 1189,
+      "y": 1218
+    }
+  },
+  {
+    "id": 7,
+    "type": "sub",
+    "pos": {
+      "x": 1189,
+      "y": 600
+    }
+  },
+  {
+    "id": 8,
+    "type": "main",
+    "latin_key": "techcon",
+    "label": "TECH CON",
+    "label_pos": {
+      "left": 0,
+      "top": -80
+    },
+    "pos": {
+      "x": 1112,
+      "y": 600
+    },
+    "cmd": "CD_MOVE_AZONE"
+  },
+  {
+    "id": 9,
+    "type": "main",
+    "latin_key": "thewave",
+    "label": "THE WAVE",
+    "label_pos": {
+      "left": 0,
+      "top": -80
+    },
+    "pos": {
+      "x": 932,
+      "y": 600
+    },
+    "cmd": "CD_MOVE_AZONE"
+  }
+]

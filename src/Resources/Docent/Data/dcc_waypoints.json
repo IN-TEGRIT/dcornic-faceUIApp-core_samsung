@@ -1,0 +1,48 @@
+[
+
+  {
+    "id": 1,
+    "type": "main",
+    "latin_key": "azone",
+    "label": "A Zone",
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "cmd": "CD_MOVE_AZONE"
+  },
+  {
+    "id": 2,
+    "type": "main",
+    "latin_key": "bzone",
+    "label": "B Zone",
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "cmd": "CD_MOVE_BZONE"
+  },
+  {
+    "id": 3,
+    "type": "main",
+    "latin_key": "czone",
+    "label": "C Zone",
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "cmd": "CD_MOVE_CZONE"
+  },
+
+  {
+    "id": 4,
+    "type": "main",
+    "latin_key": "dzone",
+    "label": "D Zone",
+    "pos": {
+      "x": 0,
+      "y": 0
+    },
+    "cmd": "CD_MOVE_DZONE"
+  }
+]

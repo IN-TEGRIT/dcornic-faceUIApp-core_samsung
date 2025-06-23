@@ -1,0 +1,44 @@
+#face-voice-input-comp {
+  .img-input-voice {
+    position: absolute;
+    z-index: 1;
+    top: 5vh;
+    right: 4.5vh;
+    width: 17.5vh;
+    height: 17.5vh;
+    border-radius: 50%;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+    &.type-1 {
+      background-image: url(../../../../Resources/Face/Images/img-waiting-voice-input-1.gif);
+      background-size: 220%;
+    }
+    &.type-2 {
+      width: 10vh; // DCornic
+      height: 10vh;
+      // width: 17vh; // Platy
+      // height: 17vh;
+      background-size: 600%;
+      background-image: url(../../../../Resources/Face/Images/img-waiting-voice-input-2.gif);
+    }
+    &.type-3 {
+      width: 15vh;
+      height: 15vh;
+      background-size: 250%;
+      background-image: url(../../../../Resources/Face/Images/img-waiting-voice-input-3.gif);
+    }
+    &.type-4 {
+      background-size: 250%;
+      background-image: url(../../../../Resources/Face/Images/img-waiting-voice-input-4.gif);
+    }
+    &.type-5 {
+      background-color: rgb(43, 58, 103);
+      background-size: 50%;
+      background-image: url(../../../../Resources/Face/Icons/ic-menu-w.svg);
+    }
+  }
+}

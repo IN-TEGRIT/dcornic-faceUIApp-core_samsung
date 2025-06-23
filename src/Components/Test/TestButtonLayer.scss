@@ -1,0 +1,59 @@
+
+#test-buttons-layer {
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 8px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding: 2px;
+  background: rgba(255, 255, 255, .3);
+  &.active {
+    right: 0;
+  }
+  #btn-layer-onoff {
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    line-height: 60px;
+    top: 0;
+    left: -30px;
+    text-align: center;
+    color: #bbb;
+    background: rgba(255, 255, 255, .3);
+    border-right: solid 1px rgba(0,0,0,.5);
+    border-radius: 8px 0 0 8px;
+  }
+  .test-button-group {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 0.625rem;
+    .title {
+      display: block;
+      flex: 1;
+      padding: 4px;
+      align-self: center;
+      text-shadow: 1px 1px 1px #000;
+    }
+
+    .contents {
+      display: flex;
+      flex-direction: column;
+
+      & > * {
+        background-color: #666;
+        padding: 8px 12px;
+        margin: 1px;
+        font-size: .75rem;
+
+        &.active {
+          background-color: #999;
+        }
+      }
+    }
+  }
+}

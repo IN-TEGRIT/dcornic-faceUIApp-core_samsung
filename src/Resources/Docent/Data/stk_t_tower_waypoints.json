@@ -1,0 +1,124 @@
+[
+
+  {
+    "id": 1,
+    "type": "main",
+    "latin_key": "tum",
+    "label": "T.um",
+    "pos": {
+      "x": 1035,
+      "y": 196
+    },
+    "cmd": "CD_MOVE_tum"
+  },
+  {
+    "id": 3,
+    "type": "main",
+    "latin_key": "jumpstudio",
+    "label": "Jump Studio",
+    "pos": {
+      "x": 1120,
+      "y": 282
+    },
+    "cmd": "CD_MOVE_jumpstudio"
+  },
+  {
+    "id": 6,
+    "type": "main",
+    "latin_key": "mediazone",
+    "label": "Media Zone",
+    "pos": {
+      "x": 880,
+      "y": 456
+    },
+    "cmd": "CD_MOVE_mediazone"
+  },
+  {
+    "id": 2,
+    "type": "sub",
+    "pos": {
+      "x": 1120,
+      "y": 196
+    }
+  },
+  {
+    "id": 4,
+    "type": "sub",
+    "pos": {
+      "x": 920,
+      "y": 282
+    }
+  },
+  {
+    "id": 5,
+    "type": "sub",
+    "pos": {
+      "x": 880,
+      "y": 320
+    }
+  },
+  {
+    "id": 7,
+    "type": "sub",
+    "pos": {
+      "x": 880,
+      "y": 496
+    }
+  },
+  {
+    "id": 8,
+    "type": "sub",
+    "pos": {
+      "x": 725,
+      "y": 496
+    }
+  },
+  {
+    "id": 9,
+    "type": "sub",
+    "pos": {
+      "x": 725,
+      "y": 360
+    }
+  },
+  {
+    "id": 10,
+    "type": "sub",
+    "pos": {
+      "x": 820,
+      "y": 360
+    }
+  },
+  {
+    "id": 11,
+    "type": "sub",
+    "pos": {
+      "x": 820,
+      "y": 305
+    }
+  },
+  {
+    "id": 12,
+    "type": "sub",
+    "pos": {
+      "x": 860,
+      "y": 265
+    }
+  },
+  {
+    "id": 13,
+    "type": "sub",
+    "pos": {
+      "x": 1035,
+      "y": 265
+    }
+  },
+  {
+    "id": 14,
+    "type": "sub",
+    "pos": {
+      "x": 1035,
+      "y": 196
+    }
+  }
+]

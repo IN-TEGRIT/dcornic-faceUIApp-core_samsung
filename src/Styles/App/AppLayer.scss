@@ -1,0 +1,90 @@
+.app-layer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+#app-page-layer {
+  display: flex;
+  // z-index: 1;
+  flex-direction: column;
+  #app-page-container {
+    // height: calc(100vh - 6.736vh);
+    height: 93.264vh;
+    overflow: hidden;
+  }
+  #app-page-menu {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-self: flex-end;
+    align-self: flex-end;
+    width: 100%;
+    height: 6.736vh;
+    min-height: 6.736vh;
+    background-color: #000;
+
+    .app-menu-item {
+      display: flex;
+      flex: 1;
+
+      background-repeat: no-repeat;
+      // background-size: cover;
+      background-size: auto 40%; 
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+
+      .click-area {
+        position: absolute;
+        flex: 1;
+        min-height: 80px;
+        height: 80px;
+        min-width: 80px;
+        width: 80px;
+        margin-top: -20px;
+        top: -20px;
+        // padding-top: -20px;
+      }
+
+      &#btn-nav-settings {
+        background-image: url(../../Resources/Common/Icons/ic-hamburger.svg);
+      }
+      &#btn-nav-mainmenu {
+        background-image: url(../../Resources/Common/Icons/ic-home.svg);
+      }
+      &#btn-nav-back {
+        background-image: url(../../Resources/Common/Icons/ic-back.svg);
+      }
+      &#btn-nav-voiceinput {
+        background-image: url(../../Resources/Common/Icons/ic-voice.svg);
+      }
+    }
+  }
+}
+
+#app-menu-layer {
+  z-index: 200;
+  pointer-events: none;
+}
+
+#app-modal-layer {
+  z-index: 400;
+  // pointer-events: none;
+}
+
+#app-touch-layer {
+  z-index: 600;
+  pointer-events: none;
+}
+
+#app-effect-layer {
+  z-index: 800;
+  pointer-events: none;
+}

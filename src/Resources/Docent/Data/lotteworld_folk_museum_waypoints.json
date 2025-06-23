@@ -1,0 +1,266 @@
+[
+
+  {
+    "id": 1,
+    "type": "main",
+    "latin_key": "seonsa",
+    "label": "선사시대",
+    "pos": {
+      "x": 865,
+      "y": 1181
+    },
+    "cmd": "CD_MOVE_neolithic_age"
+  },
+  {
+    "id": 3,
+    "type": "main",
+    "latin_key": "seokgi",
+    "label": "석기시대",
+    "label_pos": {
+      "left": 80,
+      "top": -10
+    },
+    "pos": {
+      "x": 1093,
+      "y": 1095
+    },
+    "cmd": "CD_MOVE_stone_age"
+  },
+  {
+    "id": 5,
+    "type": "main",
+    "latin_key": "cheongdonggi",
+    "label": "청동기",
+    "label_pos": {
+      "left": 60,
+      "top": -10
+    },
+    "pos": {
+      "x": 1385,
+      "y": 1009
+    },
+    "cmd": "CD_MOVE_bronze_age"
+  },
+  {
+    "id": 7,
+    "type": "main",
+    "latin_key": "goguryeo",
+    "label": "고구려",
+    "pos": {
+      "x": 1655,
+      "y": 1074
+    },
+    "cmd": "CD_MOVE_goguryeo"
+  },
+  {
+    "id": 10,
+    "type": "main",
+    "latin_key": "baekje",
+    "label": "백제",
+    "pos": {
+      "x": 1888,
+      "y": 943
+    },
+    "cmd": "CD_MOVE_baekjae"
+  },
+  {
+    "id": 13,
+    "type": "main",
+    "latin_key": "gaya",
+    "label": "가야",
+    "label_pos": {
+      "left": 50,
+      "top": -40
+    },
+    "pos": {
+      "x": 1800,
+      "y": 828
+    },
+    "cmd": "CD_MOVE_gaya"
+  },
+  {
+    "id": 15,
+    "type": "main",
+    "latin_key": "silla",
+    "label": "신라",
+    "label_pos": {
+      "left": 50,
+      "top": -40
+    },
+    "pos": {
+      "x": 1695,
+      "y": 735
+    },
+    "cmd": "CD_MOVE_silla"
+  },
+  {
+    "id": 20,
+    "type": "main",
+    "latin_key": "tongilsilla",
+    "label": "통일신라",
+    "pos": {
+      "x": 1623,
+      "y": 444
+    },
+    "cmd": "CD_MOVE_unified_silla"
+  },
+  {
+    "id": 24,
+    "type": "main",
+    "latin_key": "goryeo",
+    "label": "고려",
+    "pos": {
+      "x": 1300,
+      "y": 620
+    },
+    "cmd": "CD_MOVE_goryeo"
+  },
+  {
+    "id": 27,
+    "type": "main",
+    "latin_key": "joseon",
+    "label": "조선",
+    "pos": {
+      "x": 997,
+      "y": 400
+    },
+    "cmd": "CD_MOVE_joseon"
+  },
+
+  {
+    "id": 2,
+    "type": "sub",
+    "pos": {
+      "x": 1093,
+      "y": 1181
+    }
+  },
+  {
+    "id": 4,
+    "type": "sub",
+    "pos": {
+      "x": 1385,
+      "y": 1095
+    }
+  },
+  {
+    "id": 6,
+    "type": "sub",
+    "pos": {
+      "x": 1655,
+      "y": 1009
+    }
+  },
+  {
+    "id": 8,
+    "type": "sub",
+    "pos": {
+      "x": 1675,
+      "y": 1074
+    }
+  },
+  {
+    "id": 9,
+    "type": "sub",
+    "pos": {
+      "x": 1675,
+      "y": 943
+    }
+  },
+  {
+    "id": 11,
+    "type": "sub",
+    "pos": {
+      "x": 1888,
+      "y": 923
+    }
+  },
+  {
+    "id": 12,
+    "type": "sub",
+    "pos": {
+      "x": 1800,
+      "y": 923
+    }
+  },
+  {
+    "id": 14,
+    "type": "sub",
+    "pos": {
+      "x": 1695,
+      "y": 828
+    }
+  },
+  {
+    "id": 16,
+    "type": "sub",
+    "pos": {
+      "x": 1833,
+      "y": 600
+    }
+  },
+  {
+    "id": 17,
+    "type": "sub",
+    "pos": {
+      "x": 1833,
+      "y": 362
+    }
+  },
+  {
+    "id": 18,
+    "type": "sub",
+    "pos": {
+      "x": 1700,
+      "y": 362
+    }
+  },
+  {
+    "id": 19,
+    "type": "sub",
+    "pos": {
+      "x": 1700,
+      "y": 444
+    }
+  },
+  {
+    "id": 21,
+    "type": "sub",
+    "pos": {
+      "x": 1476,
+      "y": 444
+    }
+  },
+  {
+    "id": 22,
+    "type": "sub",
+    "pos": {
+      "x": 1476,
+      "y": 390
+    }
+  },
+  {
+    "id": 23,
+    "type": "sub",
+    "pos": {
+      "x": 1300,
+      "y": 390
+    }
+  },
+  {
+    "id": 25,
+    "type": "sub",
+    "pos": {
+      "x": 1280,
+      "y": 620
+    }
+  },
+  {
+    "id": 26,
+    "type": "sub",
+    "pos": {
+      "x": 1280,
+      "y": 400
+    }
+  }
+]

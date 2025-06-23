@@ -1,0 +1,88 @@
+/* eslint-disable jsx-a11y/alt-text */
+import React from "react";
+
+import './MainMenuContainer.scss';
+
+// Components
+import MainMenuItemComp from "./Components/MainMenuItemComp";
+
+// Menu Contents
+import {
+  imgMenuDocentLotteFolkMuseum,
+  imgMenuInfoDconic,
+  imgMenuInfoLotteFolkMuseum,
+  imgMenuScheduleLotteFlokMuseum,
+  imgMenuSettings,
+  imgMenuWeather
+} from "../../Resources/MainMenu/Images";
+
+import { imgBasestation } from "../../Resources/Common/Images/MuseumCard/1x1_mini";
+
+const ITEM_DATA = [
+  {
+    gridArea: "m1",
+    imgSrc: imgMenuScheduleLotteFlokMuseum,
+  },
+  {
+    gridArea: "m2",
+    imgSrc: imgMenuInfoLotteFolkMuseum,
+  },
+  {
+    gridArea: "m3",
+    imgSrc: imgMenuSettings,
+  },
+  {
+    gridArea: "m4",
+    imgSrc: imgMenuDocentLotteFolkMuseum,
+  },
+  {
+    gridArea: "m5",
+    imgSrc: imgMenuInfoDconic,
+  },
+  {
+    gridArea: "m6",
+    imgSrc: imgMenuWeather,
+  },
+  {
+    gridArea: "m7",
+    imgSrc: imgBasestation,
+  },
+]
+
+export default function MainMenuContainer({pos}: {pos: string}) {
+  return (
+    <div className="main-menu-grid-container">
+      {/* Row 1 */}
+      <div className="item" style={{ gridArea: "m1" }}>
+        <img src={imgMenuScheduleLotteFlokMuseum} />
+      </div>
+      <div className="item" style={{ gridArea: "m2" }}>
+        <img src={imgMenuInfoLotteFolkMuseum} />
+      </div>
+      {/* <div className="item" style={{ gridArea: "m2" }}></div> */}
+      <div className="item" style={{ gridArea: "m3" }}>
+        <img src={imgMenuSettings} />
+      </div>
+
+      {/* Row 2 */}
+      <div className="item" style={{ gridArea: "m4" }}>
+        <img src={imgMenuDocentLotteFolkMuseum} />
+      </div>
+      {/* <div className="item" style={{ gridArea: "m4" }}></div> */}
+      <div className="item" style={{ gridArea: "m5" }}>
+        <img src={imgMenuInfoDconic} />
+      </div>
+      {/* <div className="item" style={{ gridArea: "m5" }}></div> */}
+
+      {/* Row 3 */}
+      {/* <div className="item" style={{ gridArea: "m4" }}></div> */}
+      {/* <div className="item" style={{ gridArea: "m4" }}></div> */}
+      <div className="item" style={{ gridArea: "m6" }}>
+        <img src={imgMenuWeather} />
+      </div>
+      <div className="item" style={{ gridArea: "m7" }}>
+        <img src={imgBasestation} />
+      </div>
+    </div>
+  )
+}

@@ -1,0 +1,68 @@
+#face-page-ui-action2 {
+  .popup {
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    width: 100%;
+    height: 30.5vh;
+    overflow: hidden;
+    transform: translateX(-50%);
+    font-size: 65px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    & > div {
+      height: 30vh;
+    }
+
+    .contents {
+      position: relative;
+      flex: 1;
+      text-align: left;
+      // background-image: url(./Resources/popup-bg.svg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 20px;
+  
+  
+      i.warning {
+        height: 100px;
+        width: 100px;
+        margin-right: 20px;
+        background-image: url(../../../../Resources/Test/ic-warning.svg);
+        vertical-align: middle;
+      }
+      
+    }
+
+    .btn-container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      width: 30%;
+      .button {
+        // background-image: url(./Resources/popup-bg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    
+        text-align: center;
+        width: 400px;
+        height: 100px;
+        line-height: 100px;
+        transition: .3s;
+        &:active {
+          background-color: rgba(255,255,255,.4);
+        }
+      }
+    }
+
+  }
+
+}
+

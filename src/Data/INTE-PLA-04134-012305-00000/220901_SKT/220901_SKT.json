@@ -1,0 +1,41 @@
+{
+  "main_menu": {
+    "m1": {
+      "gridArea": "m1",
+      "path": "/info/SKT220901_SKTTumTimetable/"
+    },
+    "m2": {
+      "gridArea": "m2",
+      "path": "/info/SKT220901_SKTTTower/"
+    },
+    "m3": {
+      "gridArea": "m3",
+      "path": "/settings"
+    },
+    "m4": {
+      "gridArea": "m4",
+      "disabled": false,
+      "path": "/docent"
+    },
+    "m5": {
+      "gridArea": "m5",
+      "path": "/info/intro_platy"
+    },
+    "m6": {
+      "gridArea": "m6",
+      "WidgetComponent": "WeatherWidgetComp"
+    },
+    "m7": {
+      "gridArea": "m7",
+      "action": "baseStation"
+    },
+    "mSuggestion": {
+      "gridArea": "mSuggestion",
+      "action": "CD_MOVE_tum"
+    },
+    "mEvent": {
+      "gridArea": "mEvent",
+      "path": "/info/SKT220901_SKTTum/"
+    }
+  }
+}

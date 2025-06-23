@@ -1,0 +1,38 @@
+#details-driving-contents {
+  border-radius: 0 24px 24px 0;
+
+  // background-image: url(../../../../Resources/DetailsPage/backgrounds/bg-details-driving.png);
+  background-color:rgb(145, 27, 27);
+  height: 100%;
+  padding: 20px;
+  color: #fff;
+  overflow: hidden auto;
+
+  .map-container {
+    position: relative;
+    overflow: auto;
+    margin-top: 40px;
+    height: 320px;
+    border-radius: 24px;
+    box-shadow: 0 0 6px #000;
+    .point {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      background-image: url(../../../../Resources/DetailsPage/icons/ic-location-pin.png);
+      transform: translate(-50%, -50%);
+      filter: drop-shadow(5px 5px 5px #000);
+      .label {
+        position: absolute;
+        color: #222;
+        left: 50%;
+        top: 8px;
+        font-weight: bold;
+        transform: translateX(-50%)
+      }
+    }
+  }
+}
